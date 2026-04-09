@@ -1,4 +1,4 @@
-  name: Deploy Quartz site to Pages
+name: Deploy Quartz site to Pages
 
   on:
     push:
@@ -52,5 +52,3 @@
         - name: Deploy to GitHub Pages
           id: deployment
           uses: actions/deploy-pages@v5
-
-  ---
